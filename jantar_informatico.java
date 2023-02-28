@@ -82,7 +82,7 @@ public class jantar_informatico {
 	}
 	public static double desconto3OmeltasIncompletas() {
 		double desconto;
-		desconto = (2 * precoIncompleta()) * 0.05;
+		desconto = (2 * precoIncompleta()) * (5.0/100);
 		return desconto;
 	}
 	public static double desconto4OmeltasIncompletas() {
